@@ -1,0 +1,44 @@
+[
+  {
+    "description": "This is an overview of our application process",
+    "goal": "demonstrate you can program and solve a problem",
+    "requirements": [
+      {
+        "position": 1,
+        "requirement": "list available jobs"
+      },
+      {
+        "position": 2,
+        "requirement": "apply for a specific job"
+      },
+      {
+        "position": 3,
+        "optional": "check status of application"
+      }
+    ]
+  },
+  {
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "application",
+    "description": "an application object to complete and application",
+    "type": "object",
+    "properties": {
+      "name": {
+        "description": "your name",
+        "type": "string"
+      },
+      "justification": {
+        "description": "why we should hire you, we are not looking for your resume, tell us your story and why that makes you good to talk to.",
+        "type": "string"
+      },
+      "code": {
+        "description": "a link to the code you used to submit this application",
+        "type": "url"
+      },
+      "additionalLinks": {
+        "description": "these are project you have done that you can show us.",
+        "type": "array"
+      }
+    }
+  }
+]

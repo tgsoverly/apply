@@ -1,0 +1,25 @@
+{
+  "name": "apply",
+  "version": "0.0.1",
+  "description": "A server to accept applications for developers",
+  "main": "app.js",
+  "dependencies": {
+    "mongojs": "~0.9.6",
+    "restify": "~2.6.0"
+  },
+  "devDependencies": {
+    "mocha":"~1.13.0"
+    },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tgsoverly/apply.git"
+  },
+  "author": "tgsoverly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tgsoverly/apply/issues"
+  }
+}
