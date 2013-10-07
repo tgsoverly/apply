@@ -15,14 +15,15 @@ describe('service: jobs', function() {
             });
         });
     });
-    describe('post response check', function() {
-        it('should get a 200 response', function(done) {
-            client.post('/jobs', function(err, req, res, obj) {
-                if (res.statusCode != 200) {
-                    throw new Error('invalid response from /jobs');
-                }
-                done();
-            });
-        });
+});
+
+describe('post response check', function() {
+  it('should get a 200 response', function(done) {
+    client.post('/jobs', { job: { description: 'test job' } }, function(err, req, res, obj) {
+      if (res.statusCode != 200) {
+        throw new Error('invalid response from /jobs');
+      }
+      done();
     });
+  });
 });

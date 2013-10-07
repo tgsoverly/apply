@@ -1,44 +1,53 @@
-[
-  {
+{
+  "overview": {
     "description": "This is an overview of our application process",
-    "goal": "demonstrate you can program and solve a problem",
+    "goal": "write a program to demonstrate you can program and solve a problem",
     "requirements": [
       {
-        "position": 1,
-        "requirement": "list available jobs"
+        "required": true,
+        "step": "list available jobs"
       },
       {
-        "position": 2,
-        "requirement": "apply for a specific job"
+        "required": true,
+        "step": "apply for a specific job"
       },
       {
-        "position": 3,
-        "optional": "check status of application"
+        "required": false,
+        "step": "check status of application"
       }
+    ],
+    "notes": [
+      [
+        "any programming language is okay",
+        "testing code is important"
+      ]
     ]
   },
-  {
-    "$schema": "http://json-schema.org/draft-04/schema#",
-    "title": "application",
-    "description": "an application object to complete and application",
-    "type": "object",
-    "properties": {
-      "name": {
-        "description": "your name",
-        "type": "string"
-      },
-      "justification": {
-        "description": "why we should hire you, we are not looking for your resume, tell us your story and why that makes you good to talk to.",
-        "type": "string"
-      },
-      "code": {
-        "description": "a link to the code you used to submit this application",
-        "type": "url"
-      },
-      "additionalLinks": {
-        "description": "these are project you have done that you can show us.",
-        "type": "array"
+  "schemas": [
+    {
+      "id": "application",
+      "$schema": "http://json-schema.org/draft-04/schema#",
+      "title": "application",
+      "description": "an application object to complete and application",
+      "type": "object",
+      "properties": {
+        "name": {
+          "description": "your name",
+          "type": "string"
+        },
+        "justification": {
+          "description": "why we should hire you, we are not looking for your resume, tell us your story and why that makes you good to talk to.",
+          "type": "string"
+        },
+        "code": {
+          "description": "a link to the code you used to submit this application (ie github, google code etc)",
+          "type": "string"
+        },
+        "additionalLinks": {
+          "description": "these are project you have done that you can show us.",
+          "type": "array"
+        }
       }
     }
-  }
-]
+  ]
+}
