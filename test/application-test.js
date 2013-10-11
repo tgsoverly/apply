@@ -27,20 +27,3 @@ describe('post response check', function() {
     });
   });
 });
-
-describe('post response check', function() {
-  it('should get a 200 response', function(done) {
-    client.post('/applications', { application: { name: 'my name', justification: 'because I am really cool', code:"link to code", additionalLinks:["link1", "link2"], jobId:"jobId"} }, function(err, req, res, obj) {
-      var applicationId = JSON.parse(res.body)[0]._id
-      if (res.statusCode != 200) {
-        throw new Error('invalid response from /applications');
-      }
-      client.get('/applications/'+applicationId, function(err, req, res, obj) {
-        if (res.statusCode != 200) {
-          throw new Error('invalid response from /applications');
-        }
-      });
-      done();
-    });
-  });
-});
