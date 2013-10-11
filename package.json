@@ -5,7 +5,8 @@
   "main": "app.js",
   "dependencies": {
     "mongojs": "~0.9.6",
-    "restify": "~2.6.0"
+    "restify": "~2.6.0",
+    "z-schema": "~2.0.0"
   },
   "devDependencies": {
     "mocha":"~1.13.0"
