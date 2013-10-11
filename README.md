@@ -8,9 +8,16 @@ Usage
 ====
 
 npm start
-npm test
+mocha
 
 Customizing
 ==========
 
-You can set up your own custom application schema by changing the api.json file.
+You can set up your own custom application/job schema by changing the api.json file.
+
+Setup 
+=======
+
+create a job
+
+    curl -X POST -H "Content-Type: application/json" -d '{"job" :{"position":"developer","discription":"we need someone who can write elegant, well tested code."}}' http://0.0.0.0:8080/jobs

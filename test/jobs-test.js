@@ -35,7 +35,7 @@ describe('post response check', function() {
         throw new Error('invalid response from /jobs');
       }
       var jobId = JSON.parse(res.body)[0]._id
-      client.get('/jobs', { id: jobId }, function(err, req, res, obj) {
+      client.get('/jobs/'+jobId, function(err, req, res, obj) {
         if (res.statusCode != 200) {
           throw new Error('invalid response from /jobs');
         }
