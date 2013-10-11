@@ -35,7 +35,7 @@
         "get": "GET @ /jobs/:id",
         "create": "POST @ /jobs",
         "update": "PUT @ /jobs/:id",
-        "delete": "DELETE @ /jobs"
+        "delete": "DELETE @ /jobs/:id"
       },
       "schema": {
         "id": "jobs",
@@ -69,7 +69,7 @@
         "get": "GET @ /applications/:id",
         "create": "POST @ /applications",
         "update": "PUT @ /applications/:id",
-        "delete": "DELETE @ /applications"
+        "delete": "DELETE @ /applications/:id"
       },
       "schema": {
         "id": "application",
