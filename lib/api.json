@@ -2,7 +2,7 @@
   "overview": {
     "description": "This is an overview of our application process",
     "goal": "Write a program to apply for a developer position",
-    "requirements": [
+    "programeRequirements": [
       {
         "step": "list available jobs",
         "required": true
@@ -21,7 +21,8 @@
         "any programming language is okay",
         "testing code is important",
         "documentation on how to use the software",
-        "the urls located in this tell you how to validate the objects use in the interface"
+        "the urls located in response tell you how to validate the objects used in the service",
+        "when completed set use an email with the application id"
       ]
     ]
   },
