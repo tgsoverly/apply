@@ -6,11 +6,12 @@
   "dependencies": {
     "mongojs": "~0.9.6",
     "restify": "~2.6.0",
-    "z-schema": "~2.0.0"
+    "z-schema": "~2.0.0",
+    "forever":"~0.10.8"
   },
   "devDependencies": {
-    "mocha":"~1.13.0"
-    },
+    "mocha": "~1.13.0"
+  },
   "scripts": {
     "test": "mocha",
     "start": "node app.js"

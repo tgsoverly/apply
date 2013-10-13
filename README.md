@@ -8,8 +8,17 @@ Simple nodejs server to advertise and accept job applications for developers.  I
 Usage
 -----
 
-npm start
-npm test
+To run:
+
+    npm start
+
+To test:
+
+    npm test
+
+To fork and run:
+
+    forever start apply.js
 
 Dependencies
 ----------
