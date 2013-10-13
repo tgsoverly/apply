@@ -18,6 +18,6 @@ You can set up your own custom application/job schema by changing the api.json f
 Setup 
 =======
 
-create a job
+create a job 
 
     curl -X POST -H "Content-Type: application/json" -d '{"job" :{"position":"developer","description":"we need someone who can write elegant, well tested code."}}' http://0.0.0.0:8080/jobs
