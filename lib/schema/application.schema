@@ -1,0 +1,35 @@
+{
+  "id": "application",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "an application object to complete and application",
+  "type": "object",
+  "properties": {
+    "name": {
+      "description": "your name",
+      "type": "string"
+    },
+    "jobId": {
+      "description": "the id of the job you applying",
+      "type": "string"
+    },
+    "justification": {
+      "description": "why we should hire you, we are not looking for your resume, tell us your story and why that makes you good to talk to.",
+      "type": "string"
+    },
+    "code": {
+      "description": "a link to the code you used to submit this application (ie github, google code etc)",
+      "type": "string"
+    },
+    "additionalLinks": {
+      "description": "these are additional links you think we should see.",
+      "type": "array"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "justification",
+    "code",
+    "jobId"
+  ]
+}

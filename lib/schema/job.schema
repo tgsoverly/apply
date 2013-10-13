@@ -1,0 +1,25 @@
+{
+  "id": "jobs",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "a short description of the available position",
+  "type": "object",
+  "properties": {
+    "position": {
+      "description": "the title of the job",
+      "type": "string"
+    },
+    "description": {
+      "description": "a brief overview of the job",
+      "type": "string"
+    },
+    "requirements": {
+      "description": "specific addtional things we are looking the canidate to show.",
+      "type": "array"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "position",
+    "description"
+  ]
+}
