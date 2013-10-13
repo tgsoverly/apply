@@ -21,11 +21,6 @@ describe('service: applications', function() {
     done();
   });
 
-// beforeEach(){
-//     db.jobs.insert({position:"test position",description:"test description"}, function(err, job) {
-//     });
-// }
-
   describe('get response check', function() {
     it('should not get a 200 response', function(done) {
       client.get('/applications', function(err, req, res, obj) {
