@@ -23,7 +23,8 @@
         "documentation is also important",
         "the urls located in this response tell you how to validate the objects used in the service",
         "when the application is completed, send a link to the application id to us",
-        "these services are RESTful"
+        "these services are RESTful",
+        "they accept requests with the header: \"Content-Type: application/json\""
       ]
     ]
   },
