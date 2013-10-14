@@ -2,7 +2,7 @@
   "overview": {
     "description": "This is an overview of our application process",
     "goal": "Write a program to apply for a developer position",
-    "programeRequirements": [
+    "programRequirements": [
       {
         "step": "list available jobs",
         "required": true

@@ -13,7 +13,7 @@
       "type": "string"
     },
     "requirements": {
-      "description": "specific addtional things we are looking the canidate to show.",
+      "description": "specific additional things we are looking the candidate to show.",
       "type": "array"
     }
   },

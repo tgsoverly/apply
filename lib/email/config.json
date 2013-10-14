@@ -1,0 +1,10 @@
+{
+  "smtp": {
+    "service": "Gmail",
+    "auth": {
+      "user": "gmail.user@gmail.com",
+      "pass": "userpass"
+    }
+  },
+  "toArray": "person@company.com"
+}

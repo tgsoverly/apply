@@ -18,7 +18,7 @@ To test:
 
 To fork and run:
 
-    forever start apply.js
+    forever start app.js
 
 Dependencies
 ----------
@@ -31,6 +31,10 @@ Setup
 create a job 
 
     curl -X POST -H "Content-Type: application/json" -d '{"job" :{"position":"developer","description":"we need someone who can write elegant, well tested code."}}' http://0.0.0.0:8080/jobs
+
+then you can create an application
+
+    curl -X POST -H "Content-Type: application/json" -d '{"application" :{"name":"Joe Black","justification":"I am awesome", "code":"link to awsome stuff", "jobId":"$jobId"}}' https://0.0.0.0:8080/applications
 
 Then all you need to do is point your applicants to the URL endpoint and see what happens.
 

@@ -7,7 +7,7 @@
     "mongojs": "~0.9.6",
     "restify": "~2.6.0",
     "z-schema": "~2.0.0",
-    "forever":"~0.10.8"
+    "nodemailer":"~0.5.3"
   },
   "devDependencies": {
     "mocha": "~1.13.0"
