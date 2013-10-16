@@ -6,5 +6,5 @@
       "pass": "userpass"
     }
   },
-  "toArray": "person@company.com"
+  "toArray": "person@company.com, person2@company.com"
 }
