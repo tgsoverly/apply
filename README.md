@@ -41,5 +41,10 @@ Then all you need to do is point your applicants to the URL endpoint and see wha
 Customizing
 ----------
 
+### Schema for Applications/Jobs
+
 You can set up your own custom application/job schema by changing the api.json file.
 
+### Emails
+
+Optionally, when and application is created it will send an email to a list of people.  You just have to configure the `lib/email/config.json`
