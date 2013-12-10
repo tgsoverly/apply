@@ -1,33 +1,4 @@
 {
-  "overview": {
-    "description": "This is an overview of our application process",
-    "goal": "Write a program to apply for a developer position",
-    "programRequirements": [
-      {
-        "step": "list available jobs",
-        "required": true
-      },
-      {
-        "step": "apply for a specific job",
-        "required": true
-      },
-      {
-        "step": "check status of application",
-        "required": false
-      }
-    ],
-    "notes": [
-      [
-        "any programming language is okay",
-        "testing your code is important",
-        "documentation is also important",
-        "the urls located in this response tell you how to validate the objects used in the service",
-        "when the application is completed, send an email to us containing the application's id",
-        "these services are RESTful",
-        "they accept requests with the header: \"Content-Type: application/json\""
-      ]
-    ]
-  },
   "jobs": {
     "list": "GET @ /jobs",
     "get": "GET @ /jobs/:id",
