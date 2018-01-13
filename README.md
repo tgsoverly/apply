@@ -47,4 +47,4 @@ You can set up your own custom application/job schema by changing the api.json f
 
 ### Emails
 
-Optionally, when and application is created it will send an email to a list of people.  You just have to configure the `lib/email/config.json`
+Optionally, when an application is created it will send an email to a list of people.  You just have to configure the `lib/email/config.json`
