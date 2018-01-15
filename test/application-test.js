@@ -10,9 +10,9 @@ describe('service: applications', function() {
 
   beforeEach(function(done){
     var collections = ["jobs", "applications"]
-    var db = mongojs.connect("test", collections);
+    var db = mongojs("test", collections);
      db.jobs.insert({position:"test position",description:"test description"}, function(err, job) {
-        jobId = job[0]._id
+        jobId = job._id
         done();
      });
   });
