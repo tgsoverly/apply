@@ -1,10 +1,5 @@
 {
-  "smtp": {
-    "service": "Gmail",
-    "auth": {
-      "user": "gmail.user@gmail.com",
-      "pass": "userpass"
-    }
-  },
-  "toArray": "person@company.com, person2@company.com"
+    "apikey": "sendgridApiKey",
+    "from": "from@example.com",
+	"toArray": ["to@example.com"]
 }

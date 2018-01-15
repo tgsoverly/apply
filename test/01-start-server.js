@@ -7,7 +7,7 @@ console.log("FYI: You need a mongodb server running for these tests to work.")
 before(function(done) {
     require('../lib/apply').Apply("test");
     var collections = ["jobs", "applications"]
-    var db = mongojs.connect("test", collections);
+    var db = mongojs("test", collections);
     db.jobs.runCommand('drop', function(err, res) {
       // console.log(res);
     });    

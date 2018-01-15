@@ -4,13 +4,13 @@
   "description": "A server to accept applications for developers",
   "main": "app.js",
   "dependencies": {
-    "mongojs": "~0.9.6",
-    "restify": "~2.6.0",
-    "z-schema": "~2.0.0",
-    "nodemailer":"~0.5.3"
+    "mongojs": "2.4.1",
+    "restify": "2.6.0",
+    "sendgrid": "5.2.3",
+    "z-schema": "2.0.0"
   },
   "devDependencies": {
-    "mocha": "~1.13.0"
+    "mocha": "1.13.0"
   },
   "scripts": {
     "test": "mocha",
